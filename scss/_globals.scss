@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic|Montserrat);
+
+@mixin body-font-normal {
+  font-family: 'Lora' , helvetica, verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@mixin body-font-light-italic {
+  font-family: 'Lora' , helvetica, verdana, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+@mixin body-font-light-bold {
+  font-family: 'Lora' , helvetica, verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@mixin headline-font {
+  font-family: 'Montserrat' , helvetica, verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
